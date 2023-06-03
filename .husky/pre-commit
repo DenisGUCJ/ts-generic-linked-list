@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "PRE-COMMIT START"
+
+npm run lint:staged
+
+echo "PRE-COMMIT END"
+

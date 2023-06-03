@@ -1,9 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2015",
+    "target": "ES2016",
     "sourceMap": true,
+    "module": "ESNext",
     "moduleResolution": "node",
-    "outDir": "dist"
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "outDir": "dist",
   },
+  "include": ["lib/**/*"],
   "exclude": ["node_modules", "dist"],
 }
